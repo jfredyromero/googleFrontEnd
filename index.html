@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+    </head>
+    <style>
+        div > img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 156px;
+            margin-bottom: auto;
+        }
+        input[type="text"]{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 600px;
+            height: 40px;
+            outline: none;
+            border-radius: 30px;
+            border: 1px solid lightgray;
+            text-indent: 50px;
+            font-family: "Roboto","RobotoDraft";
+            font-size: 22px;
+        }
+        input[type="text"]:hover{
+          box-shadow: 0 0 5px lightgray;
+        }
+        input[type="submit"]{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    </style>
+    <body>
+        <div id="logo">
+            <img src="googleLogo.png" alt="Google">
+        </div>
+        <form action="https://google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html>
