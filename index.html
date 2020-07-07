@@ -2,43 +2,42 @@
 <html lang="en">
     <head>
         <title>Google</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-index.css">
+        <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet'>
     </head>
-    <style>
-        div > img{
-            display: block;
-            margin: 0 auto;
-            margin-top: 156px;
-            margin-bottom: auto;
-        }
-        input[type="text"]{
-            display: block;
-            margin: 0 auto;
-            margin-top: 30px;
-            width: 600px;
-            height: 40px;
-            outline: none;
-            border-radius: 30px;
-            border: 1px solid lightgray;
-            text-indent: 50px;
-            font-family: "Roboto","RobotoDraft";
-            font-size: 22px;
-        }
-        input[type="text"]:hover{
-          box-shadow: 0 0 5px lightgray;
-        }
-        input[type="submit"]{
-            display: block;
-            margin: 0 auto;
-            margin-top: 30px;
-        }
-    </style>
     <body>
+        <div id="buttons">
+                <button href="#">Images</button>
+                <button href="#">Advance Search</button>
+        </div>
         <div id="logo">
             <img src="googleLogo.png" alt="Google">
         </div>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div id="form-text-inputs">
+              <input type="text" name="q">
+              <span class="tooltiptext">Search</span>
+            </div>
+            <div id="form-submit-inputs">
+                <input type="submit" value="Google Search" name="btnG">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                <br>
+                <br>
+                <p>Google offered in: <span>Español (Latinoamérica)</span></p>
+            </div>
         </form>
+        <div id="footer">
+            <div id="footer-country">
+                <button href="#">Colombia</button>
+            </div>
+            <div id="footer-info">
+                <button href="#">Advertasing</button>
+                <button href="#">Business</button>
+                <button href="#">About</button>
+                <button href="#">How Search Works</button>
+            </div>
+        </div>
+
     </body>
 </html>
