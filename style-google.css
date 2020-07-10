@@ -1,7 +1,11 @@
 body{
     margin: 0px;
+    position: relative;
 }
 
+#logo{
+    position: relative;
+}
 #logo > img{
     display: block;
     margin: 0 auto;

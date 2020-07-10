@@ -1,8 +1,9 @@
-#logo span{
+#logo > span{
     color:#4285F4;
     font-size: 16px;
     font-family: "Arial";
-    position:absolute;
+    display: block;
+    position: absolute;
     margin-left: 754px;
     margin-top: 75px;
 }

@@ -6,12 +6,16 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0px; }
 
+@media (max-width: 1200px) {
+  #how-to-search {
+    position: absolute;
+    visibility: hidden; } }
 #header {
   display: grid;
-  grid-template-columns: auto 1200px;
+  grid-template-columns: 105px auto;
   height: 60px;
   background-color: #F5F5F5;
-  text-align: left; }
+  text-align: right; }
   #header #sign-in {
     background-color: #4285F4;
     color: white;
@@ -22,11 +26,15 @@ body {
     font-family: "Arial";
     font-weight: bold;
     margin-top: 14px;
-    margin-left: 1100px;
     border: none; }
+  #header button {
+    display: inline-block;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent; }
   #header img {
     margin-top: 16px;
-    margin-left: 16px; }
+    margin-left: 0px; }
 
 #title {
   height: 72px;
