@@ -1,0 +1,137 @@
+#header button:hover, #form-submit-inputs input:hover, #you-can-also .final:hover, #footer-info button:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0px; }
+
+#header {
+  display: grid;
+  grid-template-columns: auto 1200px;
+  height: 60px;
+  background-color: #F5F5F5;
+  text-align: left; }
+  #header #sign-in {
+    background-color: #4285F4;
+    color: white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 14px;
+    margin-left: 1100px;
+    border: none; }
+  #header img {
+    margin-top: 16px;
+    margin-left: 16px; }
+
+#title {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  color: #d93025;
+  font-size: 20px;
+  padding-left: 45px; }
+
+#form-columns {
+  display: grid;
+  grid-template-columns: 227px 575px auto; }
+  #form-columns #find-pages-with {
+    padding-top: 47px;
+    padding-left: 45px; }
+    #form-columns #find-pages-with .first-line {
+      padding-top: 12px; }
+    #form-columns #find-pages-with p {
+      font-size: 13px;
+      padding-top: 14px; }
+  #form-columns #form-text-inputs {
+    padding-top: 83px; }
+    #form-columns #form-text-inputs input {
+      height: 25px;
+      width: 554px;
+      margin-bottom: 13px;
+      border-radius: 1px;
+      border: 1px solid #d9d9d9;
+      border-top: 1px solid #c0c0c0;
+      font-size: 13px;
+      padding: 1px 8px; }
+    #form-columns #form-text-inputs input:focus {
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+      border: 1px solid #4d90fe;
+      outline: none; }
+    #form-columns #form-text-inputs .hidden {
+      position: fixed;
+      visibility: hidden; }
+  #form-columns #how-to-search {
+    padding-top: 48px;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray; }
+    #form-columns #how-to-search .first-line {
+      padding-top: 17px; }
+    #form-columns #how-to-search p {
+      color: #555;
+      font-weight: normal;
+      font-size: 11px;
+      padding-top: 18px;
+      padding-left: 12px; }
+      #form-columns #how-to-search p span {
+        color: #666;
+        font-family: monospace; }
+
+#form-submit-inputs input {
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+  width: 120px;
+  padding: 0 8px;
+  margin-left: 680px;
+  margin-top: 20px; }
+#form-submit-inputs input:hover {
+  background-color: #357ae8;
+  border: 1px solid #2f5bb7;
+  border-bottom-color: #2f5bb7; }
+
+#you-can-also {
+  margin-top: 30px;
+  border-top: 1px solid lightgray;
+  padding-left: 45px;
+  padding-top: 25px; }
+  #you-can-also #first-final {
+    margin-top: 19px; }
+  #you-can-also .final {
+    font-size: 13px;
+    color: blue;
+    margin-top: 3px; }
+
+#footer {
+  width: 100%;
+  height: 80px;
+  border-top: 1px solid lightgray;
+  margin-top: 50px;
+  background-color: #F5F5F5; }
+  #footer button {
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    font-family: "Arial";
+    font-size: 14px;
+    color: #505050;
+    background-color: #F5F5F5; }
+  #footer .firs-button {
+    margin-left: 45px; }
+
+#footer-info {
+  border-top: 1px solid lightgray; }
+
+/*# sourceMappingURL=style-advanced-search.css.map */

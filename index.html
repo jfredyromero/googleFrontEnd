@@ -3,13 +3,14 @@
     <head>
         <title>Google</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-google.css">
         <link rel="stylesheet" href="style-index.css">
-        <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet'>
     </head>
     <body>
         <div id="buttons">
-                <button href="#">Images</button>
-                <button href="#">Advance Search</button>
+                <button role="link" onclick="window.location='image.html'">Images</button>
+                <button>Advanced Search</button>
+                <button id="sign-in">Sign in</button>
         </div>
         <div id="logo">
             <img src="googleLogo.png" alt="Google">
@@ -20,8 +21,8 @@
               <span class="tooltiptext">Search</span>
             </div>
             <div id="form-submit-inputs">
-                <input type="submit" value="Google Search" name="btnG">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+                <input type="submit" name="btnG" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
                 <br>
                 <br>
                 <p>Google offered in: <span>Español (Latinoamérica)</span></p>
@@ -29,13 +30,13 @@
         </form>
         <div id="footer">
             <div id="footer-country">
-                <button href="#">Colombia</button>
+                <button>Colombia</button>
             </div>
             <div id="footer-info">
-                <button href="#">Advertasing</button>
-                <button href="#">Business</button>
-                <button href="#">About</button>
-                <button href="#">How Search Works</button>
+                <button>Advertasing</button>
+                <button>Business</button>
+                <button>About</button>
+                <button>How Search Works</button>
             </div>
         </div>
 
