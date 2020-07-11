@@ -1,100 +1,79 @@
-body{
-    margin: 0px;
+body #buttons button:hover, body #footer #footer-info button:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
+body {
+  margin: 0px; }
+  body #logo {
     position: relative;
-}
-
-#logo{
+    margin-bottom: 199px; }
+    body #logo img {
+      position: absolute;
+      margin-top: 107px;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto; }
+  body #form-text-inputs {
     position: relative;
-}
-#logo > img{
-    display: block;
-    margin: 0 auto;
-    margin-top: 107px;
-    margin-bottom: auto;
-}
-
-#form-text-inputs{
-    position: relative;
-    text-align: center;
-}
-
-.tooltiptext{
-    visibility: hidden;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    text-align: center;
-    font-family: "Arial";
-    font-size: 12px;
-    padding: 3px 6px 3px 6px;
-    position: absolute;
-    left: 600px;
-    bottom: 10px;
-}
-
-input[type="text"]:hover + .tooltiptext{
-    transition-delay: 0.5s;
-    visibility: visible;
-}
-
-input[type="text"]:focus + .tooltiptext{
-    transition-delay: 0.1s;
-    visibility: hidden;
-}
-
-input[type="text"]:hover{
-  box-shadow: 0 0 10px lightgray;
-}
-
-input[type="submit"], button[type="submit"]{
-    display: inline-block;
-    margin-top: 30px;
-    margin-right: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: none;
-    border-radius: 5px;
-    font-family: "Arial";
-    font-size: 14px;
-    color: #505050;
-}
-
-input[type="submit"]:hover, button[type="submit"]:hover{
-    cursor: pointer;
-    border: 1px solid darkgray;
-    color: black;
-}
-
-#form-submit-inputs{
-    text-align: center;
-}
-
-#buttons{
+    text-align: center; }
+    body #form-text-inputs .tooltiptext {
+      visibility: hidden;
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      text-align: center;
+      font-family: "Arial";
+      font-size: 12px;
+      padding: 3px 6px 3px 6px;
+      position: absolute;
+      left: 600px;
+      bottom: 10px; }
+    body #form-text-inputs input:hover {
+      box-shadow: 0 0 10px lightgray; }
+    body #form-text-inputs input:hover + .tooltiptext {
+      transition-delay: 0.5s;
+      visibility: visible; }
+    body #form-text-inputs input:focus + .tooltiptext {
+      transition-delay: 0.1s;
+      visibility: hidden; }
+  body #form-submit-inputs {
+    text-align: center; }
+    body #form-submit-inputs input, body #form-submit-inputs button {
+      display: inline-block;
+      margin-top: 30px;
+      margin-right: 10px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: none;
+      border-radius: 5px;
+      font-family: "Arial";
+      font-size: 14px;
+      color: #505050; }
+    body #form-submit-inputs input:hover, body #form-submit-inputs button:hover {
+      cursor: pointer;
+      border: 1px solid darkgray;
+      color: black; }
+  body #buttons {
     text-align: right;
-    margin-top: 18px;
-}
-
-#buttons button{
-    display: inline-block;
-    margin-right: 10px;
-    border: none;
-    background-color: white;
-}
-
-#buttons #sign-in{
-    background-color: #4285F4;
-    color: white;
-    padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    border-radius: 2px;
-    font-family: "Arial";
-    font-weight: bold;
-    margin-right: 30px;
-}
-
-#footer button{
+    margin-top: 18px; }
+    body #buttons button {
+      display: inline-block;
+      margin-right: 10px;
+      border: none;
+      background-color: white; }
+    body #buttons #sign-in {
+      background-color: #4285F4;
+      color: white;
+      padding: 8px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 2px;
+      font-family: "Arial";
+      font-weight: bold;
+      margin-right: 30px; }
+  body #footer button {
     display: inline-block;
     margin-left: 10px;
     margin: 10px;
@@ -102,14 +81,8 @@ input[type="submit"]:hover, button[type="submit"]:hover{
     font-family: "Arial";
     font-size: 14px;
     color: #505050;
-    background-color: #F5F5F5;
-}
+    background-color: #F5F5F5; }
+  body #footer #footer-info {
+    border-top: 1px solid lightgray; }
 
-#footer-info{
-    border-top: 1px solid lightgray;
-}
-
-#footer-info button:hover, #buttons button:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
+/*# sourceMappingURL=style-google.css.map */

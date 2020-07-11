@@ -1,0 +1,47 @@
+$google-font: "Arial";
+$google-lightgray: #F5F5F5;
+
+%button-reaction{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#form-text-inputs{
+    input{
+        margin-top: 27px;
+        width: 578px;
+        height: 42px;
+        outline: none;
+        border-radius: 30px;
+        text-indent: 40px;
+        border: 1px solid lightgray;
+        font-family: $google-font;
+        font-size: 17px;
+        background: url(search.png) no-repeat scroll 15px 13px,
+                    url(microphone.png) no-repeat scroll 545px 10px;
+    }
+}
+
+#form-submit-inputs{
+    p{
+        font-family: $google-font;
+        font-size: 13px;
+        span{
+            color: blue;
+        }
+        span:hover{
+            @extend %button-reaction;
+        }
+    }
+
+}
+
+#footer{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid lightgray;
+    margin-top: 100px;
+    margin-left: 0px;
+    background-color: $google-lightgray;
+}

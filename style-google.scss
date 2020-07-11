@@ -1,0 +1,121 @@
+$google-font: "Arial";
+$google-lightgray: #F5F5F5;
+
+%button-reaction{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body{
+    margin: 0px;
+
+    #logo{
+        position: relative;
+        margin-bottom: 199px;
+        img{
+            position: absolute;
+            margin-top: 107px;
+            left:0;
+            right:0;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+
+    #form-text-inputs{
+        position: relative;
+        text-align: center;
+        .tooltiptext{
+            visibility: hidden;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            text-align: center;
+            font-family: $google-font;
+            font-size: 12px;
+            padding: 3px 6px 3px 6px;
+            position: absolute;
+            left: 600px;
+            bottom: 10px;
+        }
+        input:hover{
+            box-shadow: 0 0 10px lightgray;
+        }
+        input:hover + .tooltiptext{
+            transition-delay: 0.5s;
+            visibility: visible;
+        }
+
+        input:focus + .tooltiptext{
+            transition-delay: 0.1s;
+            visibility: hidden;
+        }
+    }
+
+
+    #form-submit-inputs{
+        text-align: center;
+        input, button{
+            display: inline-block;
+            margin-top: 30px;
+            margin-right: 10px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border: none;
+            border-radius: 5px;
+            font-family: $google-font;
+            font-size: 14px;
+            color: #505050;
+        }
+        input:hover, button:hover{
+            cursor: pointer;
+            border: 1px solid darkgray;
+            color: black;
+        }
+    }
+
+    #buttons{
+        text-align: right;
+        margin-top: 18px;
+        button{
+            display: inline-block;
+            margin-right: 10px;
+            border: none;
+            background-color: white;
+        }
+        button:hover{
+            @extend %button-reaction;
+        }
+        #sign-in{
+            background-color: #4285F4;
+            color: white;
+            padding: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+            border-radius: 2px;
+            font-family: $google-font;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+    }
+
+    #footer{
+        button{
+            display: inline-block;
+            margin-left: 10px;
+            margin: 10px;
+            border: none;
+            font-family: $google-font;
+            font-size: 14px;
+            color: #505050;
+            background-color: $google-lightgray;
+        }
+        #footer-info{
+            border-top: 1px solid lightgray;
+            button:hover{
+                @extend %button-reaction;
+            }
+        }
+    }
+}
